@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ADD CSS Here */
+
+header {
+    height: 80px;
+    width: 100%;
+    /* border: solid 1px red; */
+    /* Ubah position ke fixed, dan top ke 0 */
+    /* position: fixed; */
+    /* top: 0; */
+    /* Ubah z-index ke 10 */
+    /* z-index: 10; */
+}
+
+.header-left {
+    float: left;
+    /* border: solid 1px red; */
+    margin-top: 25px;
+}
+
+.header-right {
+    float: right;
+    line-height: 80px;
+    display: block;
+}
+
+.header-right a {
+    padding: 0px 20px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.contact {
+    color: hsl(212, 27%, 19%) !important;
+    background-color: white;
+    padding: 10px 20px !important;
+    border-radius: 20px;
+    font-family: 'Fraunces', serif !important;
+    font-weight: 700;
+}
+
+.contact:hover {
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.2s;
+}
+
+.top-wrapper {
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+}
+
+.container {
+    width: 1170px;
+    margin: 0px auto;
+    /* border: solid 1px red; */
+}
+
+.top-wrapper h1 {
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    margin-top: 90px;
+}
+
+.top-icon {
+    margin-top: 60px;
+}
