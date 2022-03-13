@@ -260,3 +260,35 @@ header {
 .gallery img {
     width: 25%;
 }
+
+.footer {
+    background-color: hsl(168, 63%, 51%);
+    height: 300px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.footer-logo {
+    color: hsl(167, 40%, 24%);
+    margin-bottom: 50px;
+}
+
+.footer-menu {
+    margin-bottom: 50px;
+}
+
+.footer-menu a {
+    margin: 0px 20px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    color: hsl(168, 34%, 41%);
+}
+
+.footer-menu a:hover {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.footer-icon img {
+    margin: 0px 20px;
+}
