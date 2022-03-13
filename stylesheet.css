@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    padding: 0;
 }
 
 a {
@@ -15,17 +16,10 @@ a {
 header {
     height: 80px;
     width: 100%;
-    /* border: solid 1px red; */
-    /* Ubah position ke fixed, dan top ke 0 */
-    /* position: fixed; */
-    /* top: 0; */
-    /* Ubah z-index ke 10 */
-    /* z-index: 10; */
 }
 
 .header-left {
     float: left;
-    /* border: solid 1px red; */
     margin-top: 25px;
 }
 
@@ -67,7 +61,6 @@ header {
 .container {
     width: 1170px;
     margin: 0px auto;
-    /* border: solid 1px red; */
 }
 
 .top-wrapper h1 {
@@ -81,4 +74,72 @@ header {
 
 .top-icon {
     margin-top: 60px;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.about-item {
+    width: 50%;
+}
+
+.about-content {
+    margin: 130px 60px 100px 150px;
+    max-width: 60%;
+}
+
+.about-content2 {
+    margin: 130px 150px 100px 90px;
+    max-width: 60%;
+}
+
+.about-item h2 {
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+}
+
+.about-item p {
+    font-family: 'Barlow', sans-serif;
+    color: hsl(232, 10%, 55%);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.link {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.transform {
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    border-bottom: 2px solid hsl(51, 100%, 49%);
+}
+
+.transform:hover {
+    color: hsl(51, 100%, 49%);
+    border-bottom: 2px solid hsl(212, 27%, 19%);
+}
+
+.standout {
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    border-bottom: 2px solid hsl(7, 99%, 70%);
+}
+
+.standout:hover {
+    color: hsl(7, 99%, 70%);
+    border-bottom: 2px solid hsl(212, 27%, 19%);
+}
+
+.about-image {
+    height: 100%;
+    width: 100%;
 }
