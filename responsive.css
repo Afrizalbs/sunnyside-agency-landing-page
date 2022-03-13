@@ -1,0 +1,156 @@
+/* Tablet View */
+@media (max-width: 1000px) {
+    .top-wrapper {
+        /* height: 100%; */
+        background-position: center;
+    }
+
+    .top-wrapper h1 {
+        font-size: 40px;
+        letter-spacing: 5px;
+        color: white;
+        font-family: 'Fraunces', serif;
+        font-weight: 900;
+        margin-top: 90px;
+    }
+
+    .about-content {
+        margin: 70px 50px 50px 100px;
+        max-width: 80%;
+    }
+
+    .about-content2 {
+        margin: 70px 100px 50px 50px;
+        max-width: 80%;
+    }
+
+    .graphic-design {
+        background-image: url(./images/desktop/image-graphic-design.jpg);
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 50px;
+    }
+
+    .photography {
+        background-image: url(./images/desktop/image-photography.jpg);
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 50px;
+    }
+
+    .service-item h3 {
+        font-family: 'Fraunces', serif;
+        padding-top: 250px;
+
+    }
+
+    .graphic-design h3 {
+        color: hsl(167, 40%, 24%);
+        margin-bottom: 20px;
+    }
+
+    .graphic-design p {
+        color: hsl(167, 40%, 24%);
+        font-size: 14px;
+        opacity: 0.8;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    .photography h3 {
+        color: hsl(198, 62%, 26%);
+        margin-bottom: 20px;
+    }
+
+    .photography p {
+        color: hsl(198, 62%, 26%);
+        font-size: 14px;
+        font-family: 'Barlow', sans-serif;
+        opacity: 0.8;
+    }
+}
+
+/* Smartphone View */
+@media (max-width: 670px) {
+
+    .header-right {
+        display: none;
+    }
+
+    /* Tambahkan CSS untuk menu-icon */
+    .menu-icon {
+        display: block;
+    }
+
+    .top-wrapper {
+        background-image: url(./images/mobile/image-header.jpg);
+        background-position: center;
+        height: 750px;
+    }
+
+    .top-wrapper h1 {
+        font-size: 40px;
+        letter-spacing: 5px;
+        color: white;
+        font-family: 'Fraunces', serif;
+        font-weight: 900;
+        margin-top: 90px;
+    }
+
+    .top-icon {
+        margin-top: 150px;
+    }
+
+    .about-item {
+        width: 100%;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+
+    .about-content {
+        margin: 100px auto;
+        /* border: 1px solid red; */
+    }
+
+    .about-content2 {
+        margin: 100px auto;
+        /* border: 1px solid red; */
+    }
+
+    .service-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .card {
+        text-align: center;
+        padding: 30px 30px;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .gallery img {
+        width: 50%;
+    }
+
+    .footer-menu {
+        margin-bottom: 60px;
+    }
+
+    .footer-icon img {
+        margin: 0px 10px;
+    }
+}

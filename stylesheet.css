@@ -18,11 +18,21 @@ a {
 header {
     height: 80px;
     width: 100%;
+    padding: 0px 15px;
 }
 
 .header-left {
     float: left;
     margin-top: 25px;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display: none;
 }
 
 .header-right {
@@ -56,12 +66,14 @@ header {
 .top-wrapper {
     background-image: url(./images/desktop/image-header.jpg);
     background-size: cover;
+    background-position: center;
     height: 650px;
     text-align: center;
 }
 
 .container {
-    width: 1170px;
+    max-width: 1500px;
+    width: 100%;
     margin: 0px auto;
 }
 
@@ -75,7 +87,7 @@ header {
 }
 
 .top-icon {
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 .about-wrapper {
