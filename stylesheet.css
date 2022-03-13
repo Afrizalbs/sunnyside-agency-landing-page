@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -73,7 +75,7 @@ header {
 }
 
 .top-icon {
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .about-wrapper {
@@ -84,6 +86,7 @@ header {
 
 .about-item {
     width: 50%;
+    /* border: 1px solid red; */
 }
 
 .about-content {
@@ -142,4 +145,118 @@ header {
 .about-image {
     height: 100%;
     width: 100%;
+}
+
+.service-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.service-item {
+    width: 50%;
+    text-align: center;
+}
+
+.graphic-design {
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    height: 500px;
+    background-size: cover;
+
+}
+
+.photography {
+    background-image: url(./images/desktop/image-photography.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
+.service-item h3 {
+    font-family: 'Fraunces', serif;
+    padding-top: 350px;
+
+}
+
+.graphic-design h3 {
+    color: hsl(167, 40%, 24%);
+    margin-bottom: 20px;
+}
+
+.graphic-design p {
+    color: hsl(167, 40%, 24%);
+    font-size: 14px;
+    opacity: 0.8;
+    font-family: 'Barlow', sans-serif;
+}
+
+.photography h3 {
+    color: hsl(198, 62%, 26%);
+    margin-bottom: 20px;
+}
+
+.photography p {
+    color: hsl(198, 62%, 26%);
+    font-size: 14px;
+    font-family: 'Barlow', sans-serif;
+    opacity: 0.8;
+}
+
+.testimonial-wrapper {
+    background-color: hsl(0, 0%, 100%);
+    padding: 100px 0px;
+}
+
+.testimonial-wrapper h3 {
+    color: hsl(210, 4%, 67%);
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 50px;
+}
+
+.card {
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+.comment {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: hsl(213, 9%, 39%);
+    margin-bottom: 30px;
+}
+
+.name {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.job {
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    color: hsl(210, 4%, 67%);
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery img {
+    width: 25%;
 }
