@@ -7,6 +7,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 a {
@@ -31,7 +32,6 @@ header {
     float: right;
     font-size: 25px;
     padding: 21px 0;
-    /* Gantikan property display ke none */
     display: none;
 }
 
@@ -39,6 +39,11 @@ header {
     float: right;
     line-height: 80px;
     display: block;
+}
+
+.header-right ul {
+    display: flex;
+    list-style: none;
 }
 
 .header-right a {
