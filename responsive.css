@@ -76,8 +76,38 @@
 /* Smartphone View */
 @media (max-width: 670px) {
 
-    .header-right {
-        display: none;
+    .header-right ul {
+        position: absolute;
+        flex-direction: column;
+        right: 0;
+        top: 80px;
+        height: 87vh;
+        width: 100%;
+        justify-content: space-evenly;
+        background-color: white;
+        z-index: 1;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    .header-right ul.slide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    .header-right a {
+        color: hsl(213, 9%, 39%);
+    }
+
+    .contact {
+
+        background-color: hsla(51, 100%, 49%, 0.507);
+        color: hsl(212, 27%, 19%);
+    }
+
+    .contact:hover {
+        background-color: hsl(51, 100%, 49%);
     }
 
     /* Tambahkan CSS untuk menu-icon */
