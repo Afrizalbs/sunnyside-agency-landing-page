@@ -6,12 +6,24 @@
     }
 
     .top-wrapper h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
         letter-spacing: 5px;
         color: white;
         font-family: 'Fraunces', serif;
         font-weight: 900;
         margin-top: 90px;
+    }
+
+    .about-item img {
+        object-fit: cover;
+    }
+
+    .about-item h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-item p {
+        font-size: 0.9rem;
     }
 
     .about-content {
@@ -28,24 +40,22 @@
         background-image: url(./images/desktop/image-graphic-design.jpg);
         height: 100%;
         width: 100%;
-        background-size: cover;
         background-position: center;
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
     }
 
     .photography {
         background-image: url(./images/desktop/image-photography.jpg);
         height: 100%;
         width: 100%;
-        background-size: cover;
         background-position: center;
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
     }
 
     .service-item h3 {
         font-family: 'Fraunces', serif;
-        padding-top: 250px;
-
+        /* padding-top: 250px; */
+        font-size: 1.2rem;
     }
 
     .graphic-design h3 {
@@ -55,7 +65,7 @@
 
     .graphic-design p {
         color: hsl(167, 40%, 24%);
-        font-size: 14px;
+        font-size: 0.8rem;
         opacity: 0.8;
         font-family: 'Barlow', sans-serif;
     }
@@ -67,7 +77,7 @@
 
     .photography p {
         color: hsl(198, 62%, 26%);
-        font-size: 14px;
+        font-size: 0.8rem;
         font-family: 'Barlow', sans-serif;
         opacity: 0.8;
     }
@@ -118,11 +128,11 @@
     .top-wrapper {
         background-image: url(./images/mobile/image-header.jpg);
         background-position: center;
-        height: 750px;
+        height: 100vh;
     }
 
     .top-wrapper h1 {
-        font-size: 40px;
+        font-size: 2rem;
         letter-spacing: 5px;
         color: white;
         font-family: 'Fraunces', serif;
@@ -131,7 +141,7 @@
     }
 
     .top-icon {
-        margin-top: 150px;
+        margin-top: 80px;
     }
 
     .about-item {
@@ -155,6 +165,10 @@
         text-align: center;
     }
 
+    .testimonial-wrapper h3 {
+        font-size: 1rem;
+    }
+
     .card-wrapper {
         display: flex;
         flex-direction: column;
@@ -174,10 +188,15 @@
 
     .gallery img {
         width: 50%;
+        object-fit: cover;
     }
 
     .footer-menu {
         margin-bottom: 60px;
+    }
+
+    .footer-menu a {
+        font-size: 0.8rem;
     }
 
     .footer-icon img {
