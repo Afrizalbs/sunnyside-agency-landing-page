@@ -1,7 +1,6 @@
 /* Tablet View */
 @media (max-width: 1000px) {
     .top-wrapper {
-        /* height: 100%; */
         background-position: center;
     }
 
@@ -18,22 +17,24 @@
         object-fit: cover;
     }
 
-    .about-item h2 {
+    .about-card h2 {
         font-size: 1.5rem;
     }
 
-    .about-item p {
+    .about-card p {
         font-size: 0.9rem;
     }
 
-    .about-content {
-        margin: 70px 50px 50px 100px;
+    .about-card {
         max-width: 80%;
     }
 
-    .about-content2 {
+    .left {
+        margin: 70px 50px 50px 100px;
+    }
+
+    .right {
         margin: 70px 100px 50px 50px;
-        max-width: 80%;
     }
 
     .graphic-design {
@@ -41,7 +42,6 @@
         height: 100%;
         width: 100%;
         background-position: center;
-        /* padding-bottom: 50px; */
     }
 
     .photography {
@@ -49,12 +49,10 @@
         height: 100%;
         width: 100%;
         background-position: center;
-        /* padding-bottom: 50px; */
     }
 
     .service-item h3 {
         font-family: 'Fraunces', serif;
-        /* padding-top: 250px; */
         font-size: 1.2rem;
     }
 
@@ -147,17 +145,14 @@
     .about-item {
         width: 100%;
         text-align: center;
-        /* border: 1px solid red; */
     }
 
-    .about-content {
+    .left {
         margin: 100px auto;
-        /* border: 1px solid red; */
     }
 
-    .about-content2 {
+    .right {
         margin: 100px auto;
-        /* border: 1px solid red; */
     }
 
     .service-item {
