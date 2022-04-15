@@ -7,12 +7,13 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./stylesheet.css">
-  <link rel="stylesheet" href="./responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./stylesheet.css">
+  <link rel="stylesheet" href="./responsive.css">
   <title>Sunnyside agency</title>
 
 </head>
@@ -36,15 +37,15 @@
       </div>
     </header>
     <div class="container">
-      <h1>WE ARE CREATIVES</h1>
-      <img class="top-icon" src="./images/icon-arrow-down.svg">
+      <h1 data-aos="zoom-in" data-aos-duration="1000">WE ARE CREATIVES</h1>
+      <img class="top-icon" src="./images/icon-arrow-down.svg" data-aos="fade-down" data-aos-duration="500">
     </div>
   </div>
 
   <div id="about" class="container">
     <div class="about-wrapper">
       <div class="about-item">
-        <div class="about-card left">
+        <div class="about-card left" data-aos="fade-right" data-aos-delay="100" data-aos-offset="250">
           <h2>Transform your <br> brand</h2>
 
           <p>We are a full-service creative agency specializing in helping brands grow fast.
@@ -60,7 +61,7 @@
         <img src="./images/desktop/image-stand-out.jpg" alt="" class="about-image">
       </div>
       <div class="about-item">
-        <div class="about-card right">
+        <div class="about-card right" data-aos="fade-left" data-aos-delay="100" data-aos-offset="250">
           <h2>Stand out to the right audience</h2>
 
           <p> Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
@@ -76,26 +77,24 @@
 
   <div id="service" class="container">
     <div class="service-wrapper">
-      <div class="service-item">
-        <div class="graphic-design">
-          <h3>
-            Graphic design
-          </h3>
-          <p>
-            Great design makes you memorable. We deliver <br> artwork that underscores your brand message <br> and
-            captures
-            potential
-            clients’ attention.
-          </p>
-        </div>
+      <div class="service-item graphic-design">
+        <h3 data-aos="fade-up" data-aos-delay="500">
+          Graphic design
+        </h3>
+        <p data-aos="fade-up" data-aos-offset="150">
+          Great design makes you memorable. We deliver <br> artwork that underscores your brand message <br> and
+          captures
+          potential
+          clients’ attention.
+        </p>
       </div>
-      <div class="service-item">
-        <div class="photography">
-          <h3>Photography</h3>
-          <p> Increase your credibility by getting the most <br> stunning, high-quality photos that improve your <br>
-            business
-            image.</p>
-        </div>
+      <div class="service-item photography">
+        <h3 data-aos="fade-up" data-aos-delay="500">Photography</h3>
+        <p data-aos="fade-up" data-aos-offset="150"> Increase your credibility by getting the most <br> stunning,
+          high-quality photos that
+          improve your <br>
+          business
+          image.</p>
       </div>
     </div>
   </div>
@@ -106,7 +105,8 @@
         Client testimonials
       </h3>
       <div class="card-wrapper">
-        <div class="card">
+        <div class="card" data-aos="fade-right" data-aos-delay="500" data-aos-easing="ease-in-out"
+          data-aos-offset="250">
           <img src="./images/image-emily.jpg" alt="">
           <p class="comment">We put our trust in Sunnyside and they delivered, making sure our needs were met and
             deadlines were always
@@ -114,7 +114,7 @@
           <p class="name"> Emily R.</p>
           <p class="job">Marketing Director</p>
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-in" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-offset="250">
           <img src="./images/image-thomas.jpg" alt="">
           <p class="comment">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a
             satisfying and
@@ -122,7 +122,7 @@
           <p class="name">Thomas S.</p>
           <p class="job">Chief Operating Officer</p>
         </div>
-        <div class="card">
+        <div class="card" data-aos="fade-left" data-aos-delay="500" data-aos-easing="ease-in-out" data-aos-offset="250">
           <img src="./images/image-jennie.jpg" alt="">
           <p class="comment"> Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly
             recommended!
@@ -161,6 +161,10 @@
   </div>
 
   <script src="./script/index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
