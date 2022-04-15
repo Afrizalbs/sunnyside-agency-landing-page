@@ -172,50 +172,35 @@ header {
 
 .service-item {
     width: 50%;
+    height: 100%;
     text-align: center;
 }
 
 .graphic-design {
     background-image: url(./images/desktop/image-graphic-design.jpg);
-    height: 100%;
     background-size: cover;
     padding: 2em 0;
+    color: hsl(167, 40%, 24%);
+    font-family: 'Barlow', sans-serif;
 }
 
 .photography {
     background-image: url(./images/desktop/image-photography.jpg);
-    height: 100%;
     background-size: cover;
     padding: 2em 0;
+    color: hsl(198, 62%, 26%);
+    font-family: 'Barlow', sans-serif;
 }
 
 .service-item h3 {
     font-family: 'Fraunces', serif;
     padding-top: 350px;
     font-size: 1.5rem;
-}
-
-.graphic-design h3 {
-    color: hsl(167, 40%, 24%);
     margin-bottom: 20px;
 }
 
-.graphic-design p {
-    color: hsl(167, 40%, 24%);
+.service-item p {
     font-size: 0.9rem;
-    opacity: 0.8;
-    font-family: 'Barlow', sans-serif;
-}
-
-.photography h3 {
-    color: hsl(198, 62%, 26%);
-    margin-bottom: 20px;
-}
-
-.photography p {
-    color: hsl(198, 62%, 26%);
-    font-size: 0.9rem;
-    font-family: 'Barlow', sans-serif;
     opacity: 0.8;
 }
 
