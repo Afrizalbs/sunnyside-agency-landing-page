@@ -14,4 +14,4 @@ Fitur Landing Page:
 
 ### Links
 
-- Live Site URL: [here](https://afrizalbs.github.io/sunnyside-agency-landing-page-main/)
+- Live Site URL: [here](https://sunnyside-agency-hazel.vercel.app/)
